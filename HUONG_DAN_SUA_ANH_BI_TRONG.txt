@@ -1,0 +1,14 @@
+SUA ANH BI TRONG (Bien xanh, bai cam nang Ha Long...)
+
+NGUYEN NHAN: anh duoc tai truc tiep tu website khac (unex.ru, vietravelasia.com...) va cac web nay
+chan "hotlink" hoac doi duong dan -> o anh bi trong. Nhan anh o muc "Khoanh khac dep" cung bi lech (nhan Sa Pa nhung anh Ha Long).
+
+DA SUA:
+1. Nhan - anh khop nhau: Sa Pa, Nha Trang, Da Lat, Mien Tay, Hoi An, Da Nang.
+2. Khong gui "referrer" khi tai anh (nhieu web chi chan khi co referrer) -> nhieu anh se tai duoc tro lai.
+3. Tu dong du phong: anh chinh loi/cham qua 9 giay -> thu anh Unsplash -> cuoi cung dung ban ve local. Khong con o trong.
+4. Muon anh dep va on dinh 100%, khong can Internet: tai anh ve (xin phep/ghi cong tac gia) roi chep vao assets/img/
+   voi ten trung slug, vi du: tour-ha-long.jpg, tour-ninh-binh.jpg, tour-sa-pa.jpg ... (jpg/jpeg/png/webp).
+   Web tu dung file nay truoc moi nguon ben ngoai. Danh sach slug: xem ham anh_tour_that() trong configs/helper.php.
+
+SAU KHI GHI DE FILE: bam Ctrl + F5.

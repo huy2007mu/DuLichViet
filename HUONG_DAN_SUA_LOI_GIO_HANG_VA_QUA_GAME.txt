@@ -1,0 +1,16 @@
+HUONG DAN CAP NHAT BAN SUA LOI GIO HANG - MINI GAME
+
+1. Sao luu thu muc DuLichViet dang chay trong htdocs.
+2. Giai nen file ZIP nay, chep thu muc DuLichViet vao htdocs va chon ghi de file cu.
+3. Mo lai http://localhost/DuLichViet/ bang trinh duyet, nhan Ctrl + F5 de tai lai CSS/JS.
+4. Vao gio tour: anh san pham da duoc gioi han kich thuoc, bang gio hang co bo cuc phu hop may tinh va dien thoai.
+5. Bam Tien hanh dat tour: nhap thong tin lien he, ngay khoi hanh va bam Dat Tour.
+6. Sau khi dat tour thanh cong, bam Choi mini-game nhan qua. Moi don co 2 luot choi that.
+7. Che do Choi thu mien phi chi de thu game, KHONG phat ma voucher. Muon nhan qua phai vao Choi mini-game nhan qua tu don dat tour thanh cong.
+8. Trong che do choi that: duoi 35% khong co qua; tu 35% den 75% nhan qua vua; tren 75% nhan qua lon. Ma voucher hien trong ket qua, bam vao ma de sao chep.
+9. De dung ma: chon tour tiep theo, them vao gio, vao Xac nhan dat tour va nhap ma voucher. Ma QUA chi dung cho tai khoan da nhan, dung mot lan, han 60 ngay.
+
+LUU Y KIEM THU
+- Da kiem tra cu phap PHP tren toan bo cac file PHP va cu phap JavaScript cua mini-game.
+- Chua the chay thu giao dich tren MySQL/XAMPP cua may ban; hay giu ban sao database truoc khi cap nhat va thu voi mot don dat tour mau.
+- Cap nhat tru cho va danh dau voucher da dung duoc dua vao cung transaction tao don hang, tranh tru cho/voucher mot nua khi loi.

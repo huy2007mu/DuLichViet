@@ -1,0 +1,19 @@
+CAY THANH TICH + BANG XEP HANG
+
+KHONG CAN IMPORT LAI DATABASE (bang cay_thanh_tich_qua tu tao). Sau khi ghi de file, bam Ctrl + F5.
+
+1. CAY THANH TICH  (menu "Thanh tich" -> Cay thanh tich, hoac ?action=cay-thanh-tich)
+   - Chuyen da dat = so don dat tour chua bi huy.
+   - Cap cay: Hat giong (0) -> Mam non (1-2) -> Choi non (3-5) -> Canh la (6-10) -> Cay thanh tuu (tren 10 chuyen).
+   - Moi cap mo 1 qua, moi cap nhan 1 lan (voucher ca nhan CAY-<id>-<cap>-XXXX, han 90 ngay, dung 1 lan):
+       Cap 1: giam 50.000d | Cap 2: giam 10% toi da 300.000d | Cap 3: giam 200.000d + uu tien tour moi | Cap 4: giam 50% toi da 1.000.000d
+   - Co hinh cay SVG dong (cay lon dan, la dung dua, qua lap lanh, may troi).
+   - Trang "Dat tour thanh cong" va trang chu co hien tinh trang cay.
+2. BANG XEP HANG  (?action=bang-xep-hang)
+   - Hai bang: "Dat tour nhieu nhat" (theo so chuyen, hoa thi ai chi nhieu hon xep truoc)
+     va "Diem mini-game cao nhat" (tong diem cac luot choi that, hoa thi ai choi it luot hon xep truoc).
+   - Loc theo Tuan nay / Thang nay / Moi thoi diem. Co podium top 3, danh sach top 10, hien hang cua ban.
+   - Ten nguoi dung duoc rut gon (vd "Nguyen V. A") de bao ve rieng tu. Khong tinh tai khoan admin.
+3. DU LIEU MAU CHO DEMO (tuy chon): import database/du_lieu_mau_xep_hang.sql
+   -> them 8 khach hang mau (mau1..mau8@gmail.com / 123456) co san don dat tour va diem game de bang xep hang khong bi trong.
+   Xoa: DELETE FROM nguoi_dung WHERE email LIKE 'mau%@gmail.com';  (xoa don_hang/luot_choi_game cua ho truoc neu bi loi khoa ngoai)

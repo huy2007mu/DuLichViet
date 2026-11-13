@@ -1,0 +1,25 @@
+HUONG DAN ANH DU LICH THUC TE - MAY VIET
+
+Ban nay da doi cac anh SVG minh hoa thanh anh chup du lich theo dia diem.
+Anh duoc tai truc tiep tu cac URL trong configs/helper.php, vi vay may can ket noi Internet
+va cac website nguon phai cho phep truy cap anh (hotlink). Anh upload trong trang quan tri
+van duoc uu tien neu truong hinh_anh cua tour da co gia tri.
+
+Mot so nguon anh duoc dung theo dia diem:
+- Ha Long: https://www.unex.ru/uploads/2019/af38f3da8a764ea29336e13eeae5f320.jpg
+- Sa Pa: https://bv-dam.s3.amazonaws.com/dam/photos/ed/58/f8/c1/815fa8c8f96495a5260bf8016150d0df7abc81de0e905f26f2487b72.jpg
+- Ninh Binh: https://vietravelasia.com/media/images/2023/3/shutterstock1266213631-2c70bfcfabf9eb7fb0e6e6af275bb88a.jpg
+- Ha Giang: https://www.mrlinhadventure.com/UserFiles/image/Pierre/Meo-Vac_Ma-Pi-Leng.jpg
+- Cat Ba: https://d21ie9jll6nw9d.cloudfront.net/uploads/blog-migration/0a8e4a15-e384-4c4c-890b-1c4efd87425b.webp
+- Da Nang: https://vietnamtour.com/images/Vietnam_Attractions/goldens-bridge-da-nang_f05ab.jpg
+- Hue: https://www.celebritycruises.com/blog/content/uploads/2025/04/things-to-do-in-hue-imperial-citadel-1024x683.jpg
+- Hoi An: https://cdn.kimkim.com/files/a/images/2495cb60fae976ff72df8458036b5aeb52831550/original-343b4575ff777028726fa1ea2cf93c9f.jpg
+- Mekong Delta: https://cdn.prod.rexby.com/image/968125be19b64231bfbb3fac3317c574
+- Da Lat: https://cdn.sweetescape.com/images/cities/da-lat/cover/b622dd74-dddc-43f9-a05a-79421890ddd6.jpg
+- Nha Trang: https://ik.imagekit.io/tvlk/blog/2024/04/t8UKUqp4-image4-1024x683.jpg?tr=dpr-2%2Cw-675
+
+Luu y:
+- Vi anh duoc goi tu cac website ben ngoai, mot so nguon co the doi URL/chinh sach hotlink.
+- Neu can website hien thi anh khi offline, hay tai cac anh duoc phep su dung ve assets/img/ va cap nhat
+  anh_tour_that() trong configs/helper.php de tro toi file local.
+- Truoc khi dua website len san pham/cong khai, hay kiem tra giay phep va ghi cong anh theo yeu cau cua tung nguon.

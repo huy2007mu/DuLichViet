@@ -1,0 +1,33 @@
+MAY VIET - GIAO DIEN XANH TRANG MOI (theo mau thiet ke "anh web")
+
+CACH CHAY
+1. Giai nen thu muc DuLichViet vao C:\xampp\htdocs. Bat Apache + MySQL.
+2. Truy cap http://localhost/DuLichViet/
+3. Dang dung database cu: KHONG can import lai. Bang luot_choi_game (mini-game)
+   va ma MAYVIET500 tu dong duoc tao khi chay web. Database moi: import database/du_lich_viet.sql.
+4. Anh phong canh lay tu Unsplash CDN -> can Internet.
+5. Tai khoan test: admin@gmail.com / 123456 ; khachhang@gmail.com / 123456
+
+DA THAY DOI
+- Giao dien: xanh - trang (Inter, bo goc, bong mem), logo "mayviet" moi (assets/img/logo-icon.svg), favicon.
+- Toan bo CSS o assets/css/mayviet.css, JS chuyen dong o assets/js/mayviet.js.
+- Trang chu: hero doi anh mem + may troi, o tim kiem noi, the tour moi, banner navy MAYVIET500,
+  hieu ung hien dan khi cuon, so chay, nut CSKH noi 24/7.
+- Dang nhap / dang ky / khu quan tri: doi sang xanh - trang.
+
+THEO GHI CHU NHOM (anh_web_AI)
+1. Hinh anh/video chat luong cao: dat file assets/video/hero.mp4 -> trang chu tu dung video nen.
+2. Bai cam nang chuan SEO: ?action=cam-nang (them bai trong configs/cam_nang.php);
+   co the meta description, Open Graph, JSON-LD, canonical, sitemap (?action=sitemap).
+3. Mang xa hoi TikTok/Instagram/Facebook: icon o trang chu va footer (sua link trong layout_client.php).
+4. Uu dai ca nhan hoa: xem tour o diem den nao -> hien ma giam gia rieng cua diem den do (vd MAYNHATRANG8).
+5. CSKH 24/7: nut noi Hotline / Zalo / Messenger o goc phai moi trang.
+6. Mini-game (?action=choi-thu):
+   - Free-to-play: choi thu, dat 100 diem -> moi dat tour.
+   - Play-to-earn: dat tour xong hien loi moi choi, moi don 2 luot, 3 cap do
+     (Binh thuong 5 phut / Trung binh 3 phut / Kho 1p40).
+   - Duoi 35% hoan thanh: khong qua; 35-75%: qua vua; tren 75%: qua lon.
+   - Cap Kho + qua lon: vong quay quyet dinh diem vui choi mien phi.
+   - Qua la voucher ca nhan QUA-<id>-XXXXX, chi chu tai khoan dung duoc, han 60 ngay.
+7. Hang thanh vien (?action=hang-thanh-vien): Explorer / Traveler (5 tour hoac 28 trieu) /
+   Globetrotter (18 tour hoac 15 diem den), he so diem x1 / x1,5 / x2, tinh tu don "Hoan thanh".

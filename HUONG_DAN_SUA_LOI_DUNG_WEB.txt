@@ -1,0 +1,22 @@
+SUA LOI "WEB BI DUNG" KHI DAT TOUR / CHOI GAME
+
+NGUYEN NHAN (da tai hien bang trinh duyet that):
+Hop thoai (modal) "Ban co muon choi mini-game?" va hop ket qua nam trong khoi trang co hieu ung chuyen dong,
+nen lop nen mo cua Bootstrap de len tren hop thoai -> bam gi cung khong duoc, nhin nhu web bi dung.
+
+DA SUA:
+1. assets/css/mayviet.css: hieu ung vao trang khong con giu transform sau khi chay xong; modal luon tren lop nen.
+2. assets/js/mayviet.js: tu dong dua moi modal ra the <body>.
+3. Anh gio tour / dat tour / chi tiet tour da gioi han kich thuoc.
+4. Mini-game: nhan hien ro (150K, 200K...), qua tu vong quay khop voi voucher that.
+5. Chong gian lan bot khat khe (truoc day lat the nhanh co the bi tu choi).
+6. CSS/JS doi ?v=3 de trinh duyet nap ban moi.
+
+SAU KHI GHI DE FILE: bam Ctrl + F5.
+
+CACH NHAN QUA & DUNG MA:
+Dat tour -> hop thoai "Choi ngay" (hoac nut "Choi mini-game nhan qua") -> chon cap do -> lat the.
+Duoi 35%: chua co qua; 35-75%: qua vua; tren 75%: qua lon. Ma dang QUA-<id>-XXXXX hien trong ket qua.
+Dung ma: them tour khac vao gio -> Xac nhan dat tour -> nhap ma -> Ap dung. Ma dung 1 lan, han 60 ngay.
+Xem lai ma da nhan: menu tai khoan -> Hang thanh vien.
+Muon test nhanh: dat 1 tour bat ky (don nao khong bi huy cung duoc choi, moi don 2 luot).
